@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+#action {
+    background-color: #ee2a7b;
+    color: #f0f0f0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #ee2a7b;
+}
+
+img.logo {
+    height: 35px;
+}
+
+section {
+    background-color: #f9cdbd50;
+    height: 100vh;
+  
+};
