@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cz">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,56 +13,84 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0">
-    <div class="container">
-        <a class="navbar-brand"><img class="logo" src="img/logo.png"> Touch me if you can</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">O projektu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="o-Ivete.html">O Ivetě</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="o-Jane.html">O Janě</a>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontakt.html">Kontakty</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0">
+        <div class="container">
+            <img class="logo" src="img/logo.png"><a class="navbar-brand d-none d-lg-block">Touch me if you can</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">O projektu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="o-Ivete.html">O Ivetě</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="o-Jane.html">O Janě</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontakt.html">Kontakty</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/bellis.jpg" class="d-block w-100" alt="...">
+
+    <section class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="text-center pt-5 col-md-6">
+                    <h3 class="my-3">Aplikace samovyšetření prsu</h3>
+                       <p> Náš projekt vzniká ve spolupráci s projektem Bellis - mladé ženy s rakovinou prsu. Apliace má
+                        za
+                        cíl pomáhat prevenci a
+                        obsahovat důležité informace, jako je seznam akreditovaných pracovišť, návod na správné
+                        samovyšetření a rady na co si
+                        dát pozor. Hlavní je kalendář, který bude po nastavení posílat upozornění a kam si bude moci
+                        uživatelka vkládat své
+                        poznámky. Aplikaci bude možné stáhnout do mobilního zařízení.</p>
+                </div>
+                <div class="text-center mt-2 pt-5 col-md-6">
+                    <img class="d-none d-md-block" src="img/cover6.jpg" class="  pb-4"" height=" 180" alt="Touch me if you can">
+                </div>
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="img/czechitas.jpg" class="d-block w-100" alt="...">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/cover6.jpg" class="d-block w-100" alt="Samovyšetření">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bellis.jpg" class="d-block w-100" alt="Czechitas">
+                </div>
+                <!-- <div class="carousel-item">
+            <img src="img/czechitas.jpg" class="d-block w-100" alt="Bellisky">
+        </div> -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-
+</section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+            
+   
 </body>
+
 </html>
