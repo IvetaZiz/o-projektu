@@ -7,6 +7,15 @@
     color: #f0f0f0;
 }
 
+#bellis {
+    background-color: #ee2a7b;
+    color: #f0f0f0;
+}
+#touchMe {
+    background-color: #f9cdbd50;
+    color: #373739;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
 }
@@ -24,7 +33,8 @@ img.logo {
     height: 35px;
 }
 
-section {
+section,
+html {
     background-color: #f9cdbd50;
     height: 100vh;
 }
