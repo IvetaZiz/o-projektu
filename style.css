@@ -1,41 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
-
-
 #action {
-    background-color: #ee2a7b;
-    color: #f0f0f0;
+  background-color: #ee2a7b;
+  color: #f0f0f0;
 }
 
 #bellis {
-    background-color: #ee2a7b;
-    color: #f0f0f0;
+  background-color: #ee2a7b;
+  color: #f0f0f0;
 }
 #touchMe {
-    background-color: #f9cdbd50;
-    color: #373739;
+  background-color: #f9cdbd50;
+  color: #373739;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .nav-link {
-    color: white !important;
+  color: white !important;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    background-color: #ee2a7b;
+  background-color: #ee2a7b;
 }
 
 img.logo {
-    height: 35px;
+  height: 35px;
 }
 
 section,
 html {
-    background-color: #f9cdbd50;
-    height: 100vh;
+  background-color: #f9cdbd50;
+  height: 100vh;
 }
-
+.picture_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  border-radius: 5px;
+}
