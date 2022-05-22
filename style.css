@@ -36,10 +36,3 @@ html {
   background-color: #f9cdbd50;
   height: 100vh;
 }
-.picture_container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.img {
-  border-radius: 5px;
-}
