@@ -11,7 +11,7 @@
 }
 #touchMe {
   background-color: #f9cdbd50;
-  color: #373739;
+  color: #8e8e9b;
 }
 
 body {
@@ -31,8 +31,18 @@ img.logo {
   height: 35px;
 }
 
-section,
-html {
+
+body {
   background-color: #f9cdbd50;
   height: 100vh;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #373739;
+  color: white;
+  text-align: center;
 }
